@@ -2,7 +2,7 @@ import React from 'react'
 import monsterLava from '../images/monsterLava.jpg'
 import whitePasta from '../images/whitePasta.jpg'
 import Shakes from '../images/shakes.jpg'
-import Featureditem from './featured-item'
+import Featureditem from './featuredItem'
 
 function Featured() {
     return (

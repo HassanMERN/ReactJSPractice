@@ -1,5 +1,17 @@
 import React from 'react'
 import MenuItem from './MenuItem'
+import monsterLava from '../images/monsterLava.jpg'
+import fusionBurger from '../images/fusionBurger.jpg'
+import grilledBurger from '../images/grilledBurger.jpg'
+import beefBurger from '../images/beefBurger.jpg'
+import veganBurger from '../images/veganBurger.jpg'
+import studentLava from '../images/studentLava.jpg'
+import clubSandwich from '../images/clubSandwich.jpg'
+import grilledSandwich from '../images/grilledSandwich.jpg'
+import speghetti from '../images/speghetti.jpg'
+import whitePasta from '../images/whitePasta.jpg'
+import monsterWrap from '../images/monsterWrap.jpg'
+import shakes from '../images/shakes.jpg'
 
 function Menu() {
 
@@ -47,7 +59,7 @@ function Menu() {
       <div className='menu-container'>
 
         <div className='section-heading'>
-          Featured
+          Menu
         </div>
 
         <div className='menu-images'>
