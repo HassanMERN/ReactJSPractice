@@ -64,9 +64,9 @@ function Menu() {
 
         <div className='menu-images'>
           {
-            menu_items.map(menu_items=>{
-              <MenuItem name={menu_items.Name} image={menu_items.Image}></MenuItem>
-            })
+              menu_items.map(({ Name, Image }) => (
+                <MenuItem name={Name} image={Image} />
+              ))
           }
         </div>
       </div>
