@@ -9,16 +9,16 @@ function Featured() {
         <div className='featured-container'>
 
             <div className='section-heading'>
-                Featured
+                Featured Items
             </div>
 
             <div className='featured-images'>
                 
-                <Featured name='Monster Lava' image = 'monsterLava'></Featured>
+                <Featureditem name='Monster Lava' image = {monsterLava}></Featureditem>
 
-                <Featured name='Whiped Shakes' image = 'Shakes'></Featured>
+                <Featureditem name='Whiped Shakes' image = {Shakes}></Featureditem>
 
-                <Featured name='White Sauce Pasta' image = 'whitePasta'></Featured>
+                <Featureditem name='White Sauce Pasta' image = {whitePasta}></Featureditem>
             </div>
         </div>
     )
